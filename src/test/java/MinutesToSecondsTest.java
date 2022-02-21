@@ -30,6 +30,15 @@ public class MinutesToSecondsTest {
         //then
         Assert.assertEquals(0,0 );
     }
+    @Test
+    public void shouldReturn120(){
+        //given
+        long minutes = 2;
+        //when
+        MinutesToSeconds.changeMinutesToSeconds(2);
+        //then
+        Assert.assertEquals(120,120 );
+    }
 
 
 
